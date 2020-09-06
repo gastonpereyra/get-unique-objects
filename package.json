@@ -1,0 +1,37 @@
+{
+  "name": "PACKAGE_NAME",
+  "version": "0.1.0",
+  "description": "PACKAGE_DESCRIPTION",
+  "main": "lib/index.js",
+  "files": [
+    "lib/"
+  ],
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "export TEST_ENV=true; mocha --exit --recursive tests/",
+    "coverage": "nyc npm test",
+    "test-ci": "nyc --reporter=lcov --reporter=text-summary mocha --exit --recursive tests/",
+    "lint": "eslint lib/ tests/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gastonpereyra/PACKAGE_NAME.git"
+  },
+  "keywords": [],
+  "author": "Gastón Pereyra",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gastonpereyra/PACKAGE_NAME/issues"
+  },
+  "homepage": "https://github.com/gastonpereyra/PACKAGE_NAME#readme",
+  "devDependencies": {
+    "eslint": "^7.6.0",
+    "eslint-config-airbnb-base": "^13.2.0",
+    "eslint-plugin-import": "^2.22.0",
+    "mocha": "^8.0.1",
+    "nyc": "^15.1.0",
+    "sinon": "^9.0.2"
+  }
+}
