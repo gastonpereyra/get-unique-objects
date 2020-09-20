@@ -3,9 +3,9 @@
 const assert = require('assert');
 const sandbox = require('sinon');
 
-const PACKAGE_NAME = require('PACKAGE_NAME');
+const getUniqueObjects = require('get-unique-objects');
 
-describe('PACKAGE_NAME', () => {
+describe('get-unique-objects', () => {
 
     context('When Some condition', () => {
         

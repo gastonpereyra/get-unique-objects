@@ -1,7 +1,7 @@
 {
-  "name": "PACKAGE_NAME",
+  "name": "get-unique-objects",
   "version": "0.1.0",
-  "description": "PACKAGE_DESCRIPTION",
+  "description": "Get unique objects from array of objects, can normalize objects and other things",
   "main": "lib/index.js",
   "files": [
     "lib/"
@@ -17,15 +17,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gastonpereyra/PACKAGE_NAME.git"
+    "url": "git+https://github.com/gastonpereyra/get-unique-objects.git"
   },
   "keywords": [],
   "author": "Gastón Pereyra",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/gastonpereyra/PACKAGE_NAME/issues"
+    "url": "https://github.com/gastonpereyra/get-unique-objects/issues"
   },
-  "homepage": "https://github.com/gastonpereyra/PACKAGE_NAME#readme",
+  "homepage": "https://github.com/gastonpereyra/get-unique-objects#readme",
   "devDependencies": {
     "eslint": "^7.6.0",
     "eslint-config-airbnb-base": "^13.2.0",
