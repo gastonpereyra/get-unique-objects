@@ -1,7 +1,7 @@
 {
   "name": "get-unique-objects",
   "version": "1.0.0",
-  "description": "Get unique objects from array of objects, can normalize objects and other things",
+  "description": "Get unique objects from array of objects",
   "main": "lib/getUniqueObjects.js",
   "files": [
     "lib/"
