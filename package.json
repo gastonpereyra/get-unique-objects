@@ -1,8 +1,8 @@
 {
-  "name": "PACKAGE_NAME",
-  "version": "0.1.0",
-  "description": "PACKAGE_DESCRIPTION",
-  "main": "lib/index.js",
+  "name": "get-unique-objects",
+  "version": "1.0.0",
+  "description": "Get unique objects from array of objects",
+  "main": "lib/getUniqueObjects.js",
   "files": [
     "lib/"
   ],
@@ -17,21 +17,25 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gastonpereyra/PACKAGE_NAME.git"
+    "url": "git+https://github.com/gastonpereyra/get-unique-objects.git"
   },
   "keywords": [],
   "author": "Gastón Pereyra",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/gastonpereyra/PACKAGE_NAME/issues"
+    "url": "https://github.com/gastonpereyra/get-unique-objects/issues"
   },
-  "homepage": "https://github.com/gastonpereyra/PACKAGE_NAME#readme",
+  "homepage": "https://github.com/gastonpereyra/get-unique-objects#readme",
   "devDependencies": {
-    "eslint": "^7.6.0",
+    "eslint": "^7.9.0",
     "eslint-config-airbnb-base": "^13.2.0",
     "eslint-plugin-import": "^2.22.0",
-    "mocha": "^8.0.1",
-    "nyc": "^15.1.0",
-    "sinon": "^9.0.2"
+    "mocha": "^8.1.3",
+    "nyc": "^15.1.0"
+  },
+  "dependencies": {
+    "are-objects-equals": "^1.0.0",
+    "objects-normalizer": "^1.0.3",
+    "press-f": "^1.1.0"
   }
 }
