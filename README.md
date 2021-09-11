@@ -1,4 +1,4 @@
-# get-unique-objects
+# Get Unique Objects
 
 ## Code Quality Status
 ![Build Status](https://github.com/gastonpereyra/get-unique-objects/workflows/Build%20Status/badge.svg)
